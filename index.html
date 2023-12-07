@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Amazing</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <header class="w-full bg-slate-700 flex justify-between h-20 items-center border-b-2 border-white border-opacity-80">
+    <a href="index.html" class="pl-4 text-4xl text-white logo">
+      Amazing
+    </a>
+    <a href="conta.html"
+      class="flex justify-around w-36 h-14 items-center rounded-sm border-white border-2 hover:border-opacity-80 transition-all border-opacity-0 cursor-pointer mr-1">
+      <p class="text-white">{nome}</p>
+      <img class="w-10 h-10 rounded-full" src="images/ProfilePlaceholder.jpg"></img>
+    </a>
+  </header>
+  <img class="w-full bg-red-50" src="images/BlackFridayBanner.jpg"></img>;
+  <h2 class="flex justify-center items-center h-14 underline-offset-4 underline text-2xl text-white pb-5">
+    Produtos
+  </h2>
+  <div>
+    <div class="flex flex-wrap w-full justify-center px-5">
+      <div
+        class="flex flex-col items-center justify-between rounded-2 w-auto mx-2 mb-4 h-auto rounded-md border-2 border-white border-opacity-80 text-white bg-slate-800 overflow-hidden">
+        <div class="text-center p-2">
+          <h3 class="text-lg">{nome}</h3>
+          <p class="pt-2">R$ {preco}</p>
+        </div>
+        <button class="w-full py-2 px-8 bg-green-500 hover:bg-green-400 transition-colors text-lg">
+          Comprar
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

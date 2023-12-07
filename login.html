@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Amazing</title>
+      
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+      
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+<body class="overflow-hidden">
+    <header class="w-full bg-slate-700 flex justify-between h-20 items-center border-b-2 border-white border-opacity-80">
+        <a href="index.html" class="pl-4 text-4xl text-white logo">
+          Amazing
+        </a>
+        <a href="conta.html"
+          class="flex justify-around w-36 h-14 items-center rounded-sm border-white border-2 hover:border-opacity-80 transition-all border-opacity-0 cursor-pointer mr-1">
+          <p class="text-white">{nome}</p>
+          <img class="w-10 h-10 rounded-full" src="images/ProfilePlaceholder.jpg"></img>
+        </a>
+    </header>
+    <div class="w-full h-screen flex justify-center items-center text-white">
+        <form class="w-2/4 h-2/5 p-8 relative bottom-9 bg-slate-800 rounded-sm flex justify-around flex-col">
+            <h1 class="text-center text-xl mb-3">Login</h1>
+            <hr>
+            <h2>Nome:</h2>
+            <input type="text" name="nome" class="p-2 text-black rounded-sm font-sans">
+            <h2 class="mt-2">Senha:</h2>
+            <input type="password" name="senha" class="p-2 text-black rounded-sm font-sans">
+            <div class="flex justify-end">
+                <input type="submit" class="bg-slate-400 rounded-sm w-28 p-1 mt-6 cursor-pointer hover:bg-slate-300 transition-color">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
