@@ -1,1 +1,1 @@
-Frontend Java application for a fictional cloathing store
+Web frontend application for a fictional cloathing store
